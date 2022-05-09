@@ -1,6 +1,7 @@
 # Imitation-Learning---Lunar-Lander
 Using imitation learning to train a Deep Q network that can control the lunar vehicle to softly land on the lunar surface.
 
+link to gym lunar lander environment : https://gym.openai.com/envs/LunarLander-v2/
 
 ![out](https://user-images.githubusercontent.com/51358612/167246686-9dc16dad-9e3e-400c-b54b-1b112ba26b0b.gif)
 
@@ -17,6 +18,6 @@ For each iteration there are two phases. 1. Expert phase  2. Trial phase
 ![train](https://user-images.githubusercontent.com/51358612/167430113-d6866cad-7b4f-4ff1-bde2-05e9e029af66.gif)
 
 ## Testing Sequence
-In the Testing Sequence I just run the simulation a given number of times using the trained model.
+In the Testing Sequence I just run the simulation a given number of times using the trained model as controller.
 
 ![test](https://user-images.githubusercontent.com/51358612/167430220-e5bd8eb5-f0dc-4a92-ad5d-7480946a4c90.gif)
