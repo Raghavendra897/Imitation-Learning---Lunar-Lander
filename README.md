@@ -9,11 +9,11 @@ link to gym lunar lander environment : https://gym.openai.com/envs/LunarLander-v
 Iterative approach is used to train the model.
 For each iteration there are two phases. 1. Expert phase  2. Trial phase
 1. Expert phase
-      I run the simulation using the Expert as controller (here a heuristic function is used) that is sure to succeed in landing the lunar vehicle on         the lunar surface safely without crashing and making sure that it lands on exact marked spot.
-      While running it I store the state,action,next_state and Reward for each step.
+   - I run the simulation using the Expert as controller (here a heuristic function is used) that is sure to succeed in landing the lunar vehicle on         the lunar surface safely without crashing and making sure that it lands on exact marked spot.
+   - While running it I store the state,action,next_state and Reward for each step.
       At the end I will train the Deep Q network with the above stored data.
 2. Trial phase
-      I run the simulation using the Deep Q network as controller, such that Deep Q network is used to predict the next state given present state.
+   - I run the simulation using the Deep Q network as controller, such that Deep Q network is used to predict the next state given present state.
       
 ![train](https://user-images.githubusercontent.com/51358612/167430113-d6866cad-7b4f-4ff1-bde2-05e9e029af66.gif)
 
